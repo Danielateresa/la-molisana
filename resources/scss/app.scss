@@ -1,1 +1,81 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    img {
+        max-width: 100%;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
+
+header {
+    img {
+        width: 160px;
+    }
+
+    .nav-link {
+        color: black;
+        font-weight: bold;
+    }
+
+    .active {
+        background-color: rgb(134, 209, 244);
+    }
+
+}
+
+main {
+    background-image: url(../img/fondo-pag-speciali.jpg);
+    text-transform: uppercase;
+
+    .description {
+
+        position: absolute;
+        bottom: 0.5rem;
+        left: 50%;
+        transform: translate(-50%);
+        font-weight: bold;
+        font-size: 10px;
+
+    }
+
+    .type,
+    h1 {
+        color: rgb(50, 50, 128);
+    }
+}
+
+footer {
+    color: rgb(172, 172, 172);
+    font-size: 12px;
+    background-image: url(../img/footer-montagne-bottom.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    .container {
+        margin-bottom: 7rem;
+    }
+
+    li {
+        list-style: none;
+
+        a {
+            color: rgb(172, 172, 172);
+            text-decoration: none;
+        }
+    }
+
+
+
+    img {
+        width: 160px;
+    }
+
+    .company_info {
+        line-height: 1.2;
+    }
+}
